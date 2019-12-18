@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onInit(int status) {
                 if (status == TextToSpeech.SUCCESS) {
+                    //provar altres idiomes, buscar altres llibrerires
+                    // TODO: 18/12/19
+
                     int result = mTTS.setLanguage(Locale.ITALIAN);
 
                     if (result == TextToSpeech.LANG_MISSING_DATA
